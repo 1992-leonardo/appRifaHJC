@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Sorteio de Números</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Sorteio de Números</h1>
+    <input type="text" id="nome" placeholder="Digite seu nome">
+    <input type="number" id="numero" placeholder="Digite um número de 1 a 100">
+    <button onclick="adicionarNumero()">Adicionar</button>
+    <div id="numerosEscolhidos"></div>
+    <div class="cartela" id="numerosCartela"></div>
+    <button onclick="realizarSorteio()">Realizar Sorteio</button>
+    <div id="numeroSorteado"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
